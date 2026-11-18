@@ -79,3 +79,8 @@ h1 {
     width: 125px;
     margin-left: 16px;
 }
+
+.socialmedia img {
+    width: 32;
+    height: 32;
+}
