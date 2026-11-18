@@ -8,6 +8,7 @@ body {
     font: size 16px;
     font-family: Roboto, Arial, sana-serif;
 }
+
 nav {
     background-color: rgb(45, 106, 160);
     padding: 10px;
@@ -65,7 +66,6 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-
 aside {
     width: 20em;
     text-align: center;
@@ -79,7 +79,7 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 550px;
+    top: 435px;
     left: 160px;
 }
 
@@ -90,14 +90,13 @@ footer {
 }
 
 /* class selectors */
-.box{
+.box {
     margin: 1rem;
-    boarder: 1px solid rgba(0,0,.1) 
-    padding: 1rem;
+    boarder: 1px solid rgba(0, 0, .1) padding: 1rem;
     background-color: #eee;
     color: #000;
 }
 
-.indent{
+.indent {
     padding-left: 1rem;
 }
