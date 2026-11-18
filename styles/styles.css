@@ -82,9 +82,12 @@ aside img {
 aside h2 {
     position: absolute;
     top: 20px;
-    left: 0;
+    left: 50;
+    transform: translateX(50%);
+    backgrond-color: rgba(0, 0, 0, 0.6);
     width: 100&;
     text-align: center;
+    color: #fff;
 }
 
 footer {
