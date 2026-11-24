@@ -158,3 +158,37 @@ h2 {
     width: 100%;
     height: auto;
 }
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.adventures h2 {
+    grid-column: 1 / 6;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.adventures h2 {
+    grid-column: 1 / 6;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+}
