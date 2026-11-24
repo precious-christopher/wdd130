@@ -171,24 +171,28 @@ h2 {
     grid-column: 1 / 6;
 }
 
+.adventures figure {
+    margin: 0;
+}
+
 .adventures img {
     width: 100%;
     height: auto;
 }
 
-.adventures {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.socialmedia {
+    display: flex;
     gap: 15px;
-    padding: 20px;
-    text-align: center;
 }
 
-.adventures h2 {
-    grid-column: 1 / 6;
-}
-
-.adventures img {
-    width: 100%;
+.socialmedia img {
+    width: 30px;
     height: auto;
 }
